@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgb(187, 224, 228);
+    text-align: center;
+    margin: auto;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+label {
+    width: 120px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 5px;
+}
+
